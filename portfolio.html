@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">Portfolio</div>
+            <ul class="navitems">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+            <div class="links">
+                <a href="#" class="fa fa-whatsapp"></a>
+                <a href="#" class="fa fa-snapchat"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+        </nav>
+
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h3>I,m<span class="multitext"> </span></h3>
+                <h4> An aspiring Software Engineer</h4>
+                <p>This is my official Portfolio that shows my projects and work experience</p>
+                <div class="btns">
+                    <button>Download CV</button>
+                    <button>Hire Me</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="splash.png" id="slash">
+                    <img src="Screenshot_2023-08-25-23-41-50-757_com.snapchat.android-removebg-preview (1).png" id="imgw">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js">
+    </script>
+    <script>
+        var typed = new Typed(".multitext", {
+            strings : [' Anjali soni',' Coder',' Web Developer'] ,
+            loop : true ,
+            typeSpeed : 60,
+            backSpeed : 60,
+            backDelay : 500,
+        });
+    </script>
+</body>
+</html>
